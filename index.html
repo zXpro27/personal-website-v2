@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Personal Portfolio v2.0</title>
+  
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./images/aldi.ico" type="image/x-icon">
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  
+</head>
+<body>
+  <!-- #MAIN -->
+  <main>
+    <!-- #SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./images/aldi.jpg" alt="Aldiansyah" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Aldi">Aldiansyah</h1>
+
+          <p class="title">Property Investor | Web Developer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Lihat Selengkapnya</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto: alditarakez.dev@gmail.com" class="contact-link">alditarakez.dev@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+6282114024096" class="contact-link">+62 821-1402-4096</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>DKI Jakarta , Indonesia</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.github.com/zXpro27" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.showwcase.com/zxpro27" class="social-link">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    
+    <!-- #main-content -->
+    <div class="main-content">
+      
+      <!-- #NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link"data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+      
+      <!-- #ABOUT -->
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title abt">About me</h2>
+        </header>
+        
+        <section class="about-text">
+          <p class="tright">
+            Saya dari Jakarta, saat ini sedang bekerjasama menjalankan bisnis SaaS.
+          </p>
+
+          <p class="tleft">
+            Di waktu luang, saya suka berburu Properti, membantu membuat proyek proyek OpenSource, dan Menulis Blog sebagai hobi.
+            <br/>
+            Saya berada di jalur yang tepat untuk mempelajari lebih lanjut tentang <b>Artificial Intelligence</b>
+          </p>
+        </section>
+        
+        <!-- service -->
+        <section class="service">
+          <h3 class="h3 service-title">What I ♥️</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./images/investment-icon.svg" alt="Investment Icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Investment</h4>
+
+                <p class="service-item-text">
+                  Saya melakukan Investasi pada dua sektor, Saham dan Properti adalah cara yang efektif untuk menghasilkan keuntungan jangka panjang.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Pengembangan situs berkualitas tinggi di tingkat profesional.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./images/gym-icon.svg" alt="Gym Icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Gym</h4>
+
+                <p class="service-item-text">
+                  Setiap hari Selasa dan Jum'at saya menghabiskan waktu di gym untuk membangun kekuatan, kelenturan, keseimbangan, dan kesehatan kardiovaskular.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./images/gaming-icon.svg" alt="Gaming PC Icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Gaming</h4>
+
+                <p class="service-item-text">
+                  Saya bermain game untuk meningkatkan keterampilan seperti menghadapi tekanan, mengendalikan emosi, menghilangkan capek, dan meningkatkan kreativitas, problem solving, dan keterampilan komunikasi.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        
+        <!-- skill -->
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Investasi Properti & Saham</h5>
+                <data value="95"></data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Full Stack Developer</h5>
+                <data value="70"></data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Cyber Security </h5>
+                <data value="90"></data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+      
+      <!-- #PORTFOLIO -->
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="info-box">
+          <h5 class="h5 primary">Saya suka tetap sibuk dan selalu memiliki proyek yang sedang dikerjakan. lihat beberapa aplikasi sederhana yang telah saya buat. Saya mendedikasikan waktu saya  sebagian disini.</h5>
+        </section>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Web Design</button>
+            </li>
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Web Development</button>
+            </li>
+          </ul>
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-select-value>Pilih Kategori</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+            </ul>
+          </div>
+          <div class="project-list">
+            <!-- Card Items -->
+          </div>
+        </section>
+      </article>
+      
+      <!-- #BLOG -->
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog  Terbaru</h2>
+        </header>
+        <section class="blog-posts">
+          <div class="blog-posts-list">
+            
+          </div>
+          <div class="blog-detail-list">
+            
+          </div>
+        </section>
+      </article>
+      
+      <!-- #Contact -->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126907.08036831202!2d106.73203950043211!3d-6.28393125722437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1ec2422b0b3%3A0x39a0d0fe47404d02!2sJakarta%20Selatan%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1678675518359!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+        
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+            <input type="hidden" name="access_key" value="b474efcb-6660-4183-8b84-b1d84e85c64e">
+            <div class="input-wrapper">
+              <input id="name" type="text" name="name" class="form-input" placeholder="Masukan Nama" required data-form-input>
+
+              <input id="email" type="email" name="email" class="form-input" placeholder="Masukan Email" required data-form-input>
+            </div>
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            <textarea id="pesan" name="message" class="form-input" placeholder="Silahkan kirim pesan" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Kirim Pesan</span>
+            </button>
+
+          </form>
+        </section>
+      </article>
+      
+    </div>
+    
+  </main>
+  
+  <!--- custom js link -->
+  <script src="./main.js"></script>
+  <!--- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
