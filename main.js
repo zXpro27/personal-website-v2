@@ -175,7 +175,7 @@ let dataPostList = [
     details: [
       "Perubahan energi dari satu bentuk energi ke bentuk energi lainnya dapat diibaratkan seperti pasir dalam jam pasir. Jumlah pasir yang masuk ke tabung bagian bawah jam jumlah nya sama dengan jumlah pasir yang keluar dari tabung bagian atas jam",
       "Energi dapat mengubah lokasi, seperti pasir dalam jam pasir. Meskipun energi berubah bentuk, itu tetap energi. Bentuk energi dapat berubah seperti dari cahaya menjadi listrik, atau gerak menjadi listrik.",
-      "https://google.com/"
+      "https://www.highrevenuegate.com/tvv2bj7w0h?key=e6a3e289b97a7a82e413fa4657486c78"
     ]
   }
 ];
@@ -262,7 +262,7 @@ function showDetail([...selectedValue]) {
       <p>${previewDetail[6]}</p>
     </div>
     <div class="danger">
-      <button onclick="window.location='${previewDetail[7]}'";><ion-icon name="arrow-redo-outline" class="icon"></ion-icon></button>
+      <button onclick="window.open('${previewDetail[7]}')";><ion-icon name="arrow-redo-outline" class="icon"></ion-icon></button>
       <h5 class="h5">Karena waktu pembuatan yang terbatas, mohon baca artikel selengkapnya dihalaman lain selagi menunggu update terbaru dari Personal Page saya</h5>
     </div>
   </div>
