@@ -50,27 +50,41 @@ let dataCards = [
   },
   {
     id: 2,
+    title: "Cute Stories",
+    thumb: "./images/portfolio/storyshop.webp",
+    kategori: "web development",
+    url: "https://www.cutestory.shop/"
+  },
+  {
+    id: 3,
+    title: "Manipulation MasterClass",
+    thumb: "./images/portfolio/manipulasi.webp",
+    kategori: "web design",
+    url: "https://www.ilmukehidupan.site//"
+  },
+  {
+    id: 4,
     title: "Plant'shop",
     thumb: "./images/portfolio/preview.png",
     kategori: "web design",
     url: "https://plantshop-pro.vercel.app/"
   },
   {
-    id: 3,
+    id: 5,
     thumb: "./images/portfolio/fitclub.png",
     title: "FitClub",
     kategori: "web design",
     url: "https://fitclub-pro.vercel.app/"
   },
   {
-    id: 4,
+    id: 6,
     thumb: "./images/portfolio/bookshelf.png",
     title: "Bookshelf",
     kategori: "web development",
     url: "https://bookshelf-pro.vercel.app/"
   },
   {
-    id: 5,
+    id: 7,
     thumb: "./images/portfolio/covid.png",
     title: "Covid-19",
     kategori: "web design",
